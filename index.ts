@@ -8,15 +8,15 @@ app.use(cors());
 app.use(express.json());
 
 // 404 Page
-app.use(
-    (
-        req: express.Request,
-        res: express.Response,
-        next: express.NextFunction
-    ): void => {
-        res.status(404).send({ message: "Page not found" });
-    }
-);
+// app.use(
+//     (
+//         req: express.Request,
+//         res: express.Response,
+//         next: express.NextFunction
+//     ): void => {
+//         res.status(404).send({ message: "Page not found" });
+//     }
+// );
 
 //Error handling Globally
 app.use(
