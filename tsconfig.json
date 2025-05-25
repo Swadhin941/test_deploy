@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "es2016",
+        "rootDir": "./",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "noImplicitAny": true
+    },
+    "include": ["index.ts"]
+}
